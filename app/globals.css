@@ -1,33 +1,38 @@
+/* globals.css */
+
+/* Import Tailwind's base styles */
 @tailwind base;
+
+/* Import Tailwind's component styles */
 @tailwind components;
+
+/* Import Tailwind's utility styles */
 @tailwind utilities;
 
+/* Define light theme variables */
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  --bg-color: #f7fafc; /* Tailwind's gray-100 - Light background color for the light theme */
+  --text-color: #000000; /* Tailwind's black - Text color for the light theme */
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+/* Define dark theme variables */
+.dark {
+  --bg-color: #4a5568; /* Tailwind's gray-700 - Dark background color for the dark theme */
+  --text-color: #f5f6f8; /* Tailwind's white - Text color for the dark theme */
 }
 
+/* Apply transitions for background and text color */
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background-color: var(
+    --bg-color
+  ); /* Sets the background color using the theme variable */
+  color: var(--text-color); /* Sets the text color using the theme variable */
+  transition: background-color 1.3s ease-in-out, color 1.3s ease-in-out; /* Smooth transition for background and text color changes */
 }
 
 @layer utilities {
+  /* Custom utility class for balanced text wrapping */
   .text-balance {
-    text-wrap: balance;
+    text-wrap: balance; /* Ensures that text is balanced within its container, if supported by the browser */
   }
 }

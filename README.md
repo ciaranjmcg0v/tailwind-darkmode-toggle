@@ -1,36 +1,71 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# tailwind-darkmode-toggle
 
-## Getting Started
+## Overview
 
-First, run the development server:
+`tailwind-darkmode-toggle` is a simple yet flexible web application that allows users to toggle between light and dark modes using Tailwind CSS for styling and Zustand for state management. It also uses Lucide Icons to create more customizable elements. The application provides a smooth and visually appealing switch to toggle themes and saves the user’s preference in local storage to persist across sessions.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Dark and Light Mode Toggle:** Seamlessly switch between light and dark themes.
+- **Persistent Theme Storage:** User preferences are saved in local storage.
+- **Responsive Design:** Tailwind CSS ensures responsive design that adapts to various screen sizes.
+- **Smooth Transitions:** Transitions between themes are smooth, enhancing user experience.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Technologies Used
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- **[NextJS](https://nextjs.org/docs):** React framework for building full-stack web applications.
+- **[Tailwind CSS](https://tailwindcss.com/docs/installation):** Utility-first CSS framework for styling.
+- **[Zustand](https://github.com/pmndrs/zustand):** Lightweight state management library for React.
+- **[Lucide Icons](https://lucide.dev/guide/installation):** Lucide icon library for React applications.
 
-## Learn More
+## Setup
 
-To learn more about Next.js, take a look at the following resources:
+To get started with `tailwind-darkmode-toggle`, follow these steps:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. **Clone the Repository:**
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+   ```bash
+   git clone https://github.com/yourusername/tailwind-darkmode-toggle.git
+   ```
 
-## Deploy on Vercel
+2. **Navigate to the Project Directory:**
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+   ```bash
+   cd tailwind-darkmode-toggle
+   ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+3. **Install Dependencies:**
+
+   ```bash
+   npm install
+   ```
+
+4. **Run the Development Server:**
+
+   ```bash
+   npm run dev
+   ```
+
+   The application will be available at `http://localhost:3000`.
+
+## Screenshots
+
+### Light Mode
+
+![Light Mode](public\screenshots\lightmode.png)
+
+### Dark Mode
+
+![Dark Mode](public\screenshots\darkmode.png)
+
+## Contributing
+
+If you would like to contribute to the development of this app, please feel free to submit a pull request or open an issue.
+
+## License
+
+This project is licensed under the MIT License.
+
+---
+
+For more details, visit the [documentation](https://docs.example.com) or reach out to the maintainers.
