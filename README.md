@@ -52,11 +52,11 @@ To get started with `tailwind-darkmode-toggle`, follow these steps:
 
 ### Light Mode
 
-![Light Mode](public\screenshots\lightmode.png)
+![Light Mode](https://github.com/ciaranjmcg0v/tailwind-darkmode-toggle/blob/master/public/screenshots/lightmode.png)
 
 ### Dark Mode
 
-![Dark Mode](public\screenshots\darkmode.png)
+![Dark Mode](https://github.com/ciaranjmcg0v/tailwind-darkmode-toggle/blob/master/public/screenshots/darkmode.png)
 
 ## Contributing
 
