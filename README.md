@@ -25,7 +25,7 @@ To get started with `tailwind-darkmode-toggle`, follow these steps:
 1. **Clone the Repository:**
 
    ```bash
-   git clone https://github.com/yourusername/tailwind-darkmode-toggle.git
+   git clone https://github.com/ciaranjmcg0v/tailwind-darkmode-toggle.git
    ```
 
 2. **Navigate to the Project Directory:**
@@ -65,7 +65,3 @@ If you would like to contribute to the development of this app, please feel free
 ## License
 
 This project is licensed under the MIT License.
-
----
-
-For more details, visit the [documentation](https://docs.example.com) or reach out to the maintainers.
